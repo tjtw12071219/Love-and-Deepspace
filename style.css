@@ -1,0 +1,152 @@
+
+@font-face {
+  font-family: 'UoqMun';
+  src: url('fonts/UoqMun.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JFOpenHuninn';
+  src: url('fonts/jf-openhuninn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, input, button, .question, .option, .result, .result-title, .result-description {
+  font-family: 'JFOpenHuninn', 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+  font-family: 'UoqMun', 'Noto Sans TC', sans-serif;
+}
+
+
+//REMOVED//
+  font-family: 'Tanugo';
+  src: url('fonts/Tanugo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+//REMOVED//
+  font-family: 'PopRumKiwi';
+  src: url('fonts/PopRumKiwi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+//REMOVED//
+  font-family: 'JFOpenHuninn';
+  src: url('fonts/jf-openhuninn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//REMOVED//
+  font-family: 'JFOpenHuninn', 'Noto Sans TC', sans-serif;
+}
+
+//REMOVED//
+  font-family: 'PopRumKiwi', 'Noto Sans TC', sans-serif;
+}
+
+
+
+  font-family: 'Segoe UI', 'Noto Sans TC', sans-serif;
+  background: #fff0f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(180, 130, 180, 0.1);
+}
+
+//REMOVED//
+  font-size: 2.4rem;
+  text-align: center;
+  color: #ff924a; /* 橘色 */
+  margin-bottom: 1rem;
+}
+
+p.intro {
+  text-align: center;
+  color: #cc3e3e; /* 紅色 */
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 0.9rem 2.2rem;
+  font-size: 1rem;
+  background-color: #f78da7;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.hidden {
+  display: none;
+}
+
+.question-block {
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 2px dashed #ffd3e5;
+  box-shadow: 0 0 12px rgba(230, 130, 180, 0.08);
+}
+
+.question-block h2 {
+  color: #7d7edc; /* 題目藍色 */
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.85rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #ffd9e6;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  background-color: #fef0f6;
+  color: #8e44ad; /* 紫色 */
+}
+
+.options button:hover {
+  background-color: #fff6fa;
+  transform: translateX(3px);
+}
+
+#result {
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+
+.centered-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
